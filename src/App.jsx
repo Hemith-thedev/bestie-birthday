@@ -172,7 +172,7 @@ export default function App() {
 
   return (
     <div
-      className={`relative max-h-screen bg-gradient-to-br from-purple-50 via-fuchsia-50 to-indigo-100 text-slate-800 select-none selection:bg-purple-600 selection:text-white ${namePopup.isOpen ? "overflow-hidden" : "overflow-x-hidden overflow-y-auto"} font-sans`}
+      className={`relative max-h-screen bg-linear-to-br from-purple-50 via-fuchsia-50 to-indigo-100 text-slate-800 select-none selection:bg-purple-600 selection:text-white ${namePopup.isOpen ? "overflow-hidden" : "overflow-x-hidden overflow-y-auto"} font-sans`}
     >
       {/* Header */}
       <header className="mx-auto flex w-full max-w-5xl flex-col items-center justify-between gap-4 px-4 py-6 sm:flex-row">
@@ -180,7 +180,7 @@ export default function App() {
           <span className="shrink-0 text-3xl">
             <Heart className="text-purple-600" fill="#9810fa" />
           </span>
-          <span className="bg-gradient-to-r from-purple-600 to-fuchsia-600 bg-clip-text pr-4 text-transparent">
+          <span className="bg-linear-to-r from-purple-600 to-fuchsia-600 bg-clip-text pr-4 text-transparent">
             <span className="truncate text-3xl font-bold">Purple Girl</span>
           </span>
         </div>
@@ -198,13 +198,13 @@ export default function App() {
         <section className="relative py-10 text-center">
           <div className="pointer-events-none absolute -top-10 left-1/2 -z-10 h-72 w-72 -translate-x-1/2 transform animate-pulse rounded-full bg-purple-400/50 blur-3xl"></div>
 
-          <div className="mb-4 inline-block rounded-full bg-gradient-to-r from-purple-600 to-fuchsia-600 bg-clip-text px-4 py-1.5 text-xs font-bold tracking-wide text-transparent sm:text-sm">
+          <div className="mb-4 inline-block rounded-full bg-linear-to-r from-purple-600 to-fuchsia-600 bg-clip-text px-4 py-1.5 text-xs font-bold tracking-wide text-transparent sm:text-sm">
             ✨ TODAY IS ALL ABOUT YOU~ ✨
           </div>
 
           <h1 className="mb-4 flex flex-wrap items-center justify-center gap-x-2 gap-y-1 px-2 text-2xl leading-tight tracking-tight sm:text-4xl md:text-5xl lg:text-6xl">
             <span className="font-extrabold">Happy Birthday,</span>
-            <span className="bg-gradient-to-r from-purple-600 via-fuchsia-600 to-indigo-600 bg-clip-text pr-4 text-transparent">
+            <span className="bg-linear-to-r from-purple-600 via-fuchsia-600 to-indigo-600 bg-clip-text pr-4 text-transparent">
               <span className="max-w-full leading-relaxed font-bold break-all">
                 {bestieName}!
               </span>
@@ -230,7 +230,7 @@ export default function App() {
                 Nin bestfriend maatugalu nodu
               </p>
             </div>
-            <div className="mb-4 flex min-h-[80px] items-center justify-center rounded-2xl border border-purple-100 bg-purple-50/80 p-4 text-center">
+            <div className="mb-4 flex min-h-20 items-center justify-center rounded-2xl border border-purple-100 bg-purple-50/80 p-4 text-center">
               <p
                 style={{
                   opacity: complimentOpacity,
@@ -261,7 +261,7 @@ export default function App() {
                 nam moments inda kelondu lines
               </p>
             </div>
-            <div className="mb-4 flex min-h-[80px] items-center justify-center rounded-2xl border border-fuchsia-100 bg-fuchsia-50/80 p-4 text-center">
+            <div className="mb-4 flex min-h-20 items-center justify-center rounded-2xl border border-fuchsia-100 bg-fuchsia-50/80 p-4 text-center">
               <p
                 style={{
                   opacity: memoryOpacity,
@@ -302,7 +302,7 @@ export default function App() {
           </p>
           <button
             onClick={blowCandles}
-            className="cursor-pointer rounded-2xl bg-gradient-to-r from-purple-600 to-fuchsia-600 px-8 py-3 text-sm font-bold text-white shadow-lg transition hover:scale-105 active:scale-95 sm:text-base"
+            className="cursor-pointer rounded-2xl bg-linear-to-r from-purple-600 to-fuchsia-600 px-8 py-3 text-sm font-bold text-white shadow-lg transition hover:scale-105 active:scale-95 sm:text-base"
             disabled={candlesBlown}
           >
             {candlesBlown ? "Make a wish 😇" : "Blow Candles"}
@@ -315,11 +315,11 @@ export default function App() {
             {bestieName}
           </div>
 
-          <h2 className="relative z-10 mb-4 flex items-center space-x-2 text-2xl font-bold break-words">
+          <h2 className="relative z-10 mb-4 flex items-center space-x-2 text-2xl font-bold wrap-break-word">
             <span>A Special Note For You</span>
           </h2>
 
-          <div className="relative z-10 space-y-4 text-base leading-relaxed font-medium break-words text-slate-700 sm:text-lg">
+          <div className="relative z-10 space-y-4 text-base leading-relaxed font-medium wrap-break-word text-slate-700 sm:text-lg">
             <p>
               <span className="inline lg:hidden">
                 Dear{" "}
@@ -454,7 +454,7 @@ export default function App() {
               triggerConfetti();
               setCandlesBlown(false);
             }}
-            className="rounded-xl bg-gradient-to-r from-purple-600 to-fuchsia-600 px-5 py-2.5 text-sm font-semibold whitespace-nowrap text-white shadow-md transition hover:opacity-95 active:scale-95"
+            className="rounded-xl bg-linear-to-r from-purple-600 to-fuchsia-600 px-5 py-2.5 text-sm font-semibold whitespace-nowrap text-white shadow-md transition hover:opacity-95 active:scale-95"
           >
             Personalize ✏️
           </button>
