@@ -109,9 +109,10 @@ export default function App() {
   };
 
   const handleUpdateBestieName = () => {
-    if (nameInput.trim()) {
+    if (nameInput.trim() !== "") {
       setBestieName(nameInput.trim());
       setNameInput("");
+      triggerConfetti();
     } else {
       showModal("⚠️ Oops!", "Please enter a valid name first!", "💡");
     }
@@ -139,7 +140,7 @@ export default function App() {
   };
 
   const handleUpdateSignature = () => {
-    if (signatureInput.trim()) {
+    if (signatureInput.trim() !== "") {
       handleSign();
       showModal(
         "Note Signed!",
@@ -449,11 +450,7 @@ export default function App() {
             className="flex-1 rounded-xl border border-purple-200 bg-purple-50/50 px-4 py-2.5 text-sm font-medium text-slate-800 placeholder-slate-400 transition-all focus:ring-2 focus:ring-purple-500 focus:outline-none"
           />
           <button
-            onClick={() => {
-              handleUpdateBestieName();
-              triggerConfetti();
-              setCandlesBlown(false);
-            }}
+            onClick={handleUpdateBestieName}
             className="rounded-xl bg-linear-to-r from-purple-600 to-fuchsia-600 px-5 py-2.5 text-sm font-semibold whitespace-nowrap text-white shadow-md transition hover:opacity-95 active:scale-95"
           >
             Personalize ✏️
