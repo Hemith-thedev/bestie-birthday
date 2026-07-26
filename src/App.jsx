@@ -423,7 +423,7 @@ export default function App() {
         className={`fixed inset-0 z-50 flex items-center justify-center bg-slate-900/60 p-4 backdrop-blur-sm ${modal.isOpen ? "pointer-events-auto opacity-100" : "pointer-events-none opacity-0"} transition-all duration-500`}
       >
         <div
-          className={`w-full max-w-sm rounded-3xl border border-purple-100 bg-white p-6 text-center shadow-2xl ${modal.isOpen ? "translaye-y-0 blur-none" : "translate-y-20 blur-xl"} transition-all duration-200`}
+          className={`w-full max-w-sm rounded-3xl border border-purple-100 bg-white p-6 text-center shadow-2xl ${modal.isOpen ? "translate-y-0 blur-none" : "translate-y-20 blur-xl"} transition-all duration-200`}
         >
           <div className="mb-3 text-4xl">{modal.icon}</div>
           <h3 className="mb-2 text-lg font-bold text-slate-800">
