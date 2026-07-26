@@ -86,13 +86,15 @@ export default function App() {
     "Exam disaney gottaitu, neenu kiladi anta 😂",
     "Neenu coding maadodu ond sari kuda nodilla 😒",
     "Yavag nan kalsiro reels nodthiya? neenu reels kalsodu kuda martbutta? 😭",
+    "Naavu 'good night' anta helodu bitti 'logout' ankontidvi, gotta? 🤌🏼“,
+    "aavattu 'yaar savaasa madidini helu' anta text madidiya, mind block agoitu aavatru nanage 😆",
     "Naavu avaaga reels obrigobburu share maadkontidvi, gotta? 😂",
     "Atleast ondu treat kodsana ankode, but... situation nan kainal irlilla. 😭",
   ];
 
   const yourplayfulside = [
     "😒 Avagavaga neenu matte Sukanya nanna aatadkolodu, prends anta bitte... otherwise, direct... enu illa bidu!",
-    "Nin mukha nodudre 'Fahhh' alla, 'Wahh' anbekansutte. 🤯",
+    "Nin mukha nodudre 'Fahhh' alla, 'Wahhh' anbekansutte. 🤯",
     "Ninge ond help maadidini, gnyapusko! 😎",
     "Aavattu neenu nin fav song ge dance madidiya nodu, fix agbutide nan mindalli! 😎",
     "Ninge talent ide, use madu... in fact, brain kuda ide anko! 😜",
