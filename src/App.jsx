@@ -86,7 +86,7 @@ export default function App() {
     "Exam disaney gottaitu, neenu kiladi anta 😂",
     "Neenu coding maadodu ond sari kuda nodilla 😒",
     "Yavag nan kalsiro reels nodthiya? neenu reels kalsodu kuda martbutta? 😭",
-    "Naavu 'good night' anta helodu bitti 'logout' ankontidvi, gotta? 🤌🏼“,
+    "Naavu 'good night' anta helodu bitti 'logout' ankontidvi, gotta? 🤌🏼",
     "aavattu 'yaar savaasa madidini helu' anta text madidiya, mind block agoitu aavatru nanage 😆",
     "Naavu avaaga reels obrigobburu share maadkontidvi, gotta? 😂",
     "Atleast ondu treat kodsana ankode, but... situation nan kainal irlilla. 😭",
